@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowRight, Wallet, BarChart, Brain } from "lucide-react";
 
 const HomePage = () => {

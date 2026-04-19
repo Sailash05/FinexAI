@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { CreditCard, PieChart } from "lucide-react";
+import { motion, } from "framer-motion";
+import { PieChart } from "lucide-react";
 import { TransactionService } from "../../service/transaction.service";
 
 type Prediction = {

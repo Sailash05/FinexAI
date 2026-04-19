@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { Send, MessageCircle } from "lucide-react";
 import { TransactionService } from "../../service/transaction.service";
 import ChatInterface from "../../components/chatBotComponent/ChatInterface";
