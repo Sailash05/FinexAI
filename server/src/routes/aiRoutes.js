@@ -101,6 +101,7 @@ router.post("/predict", async (req, res) => {
     res.json(parsed);
   } catch (err) {
     console.error(err);
+    console.log(err.message);
     res.status(500).json({ error: err.message });
   }
 });
